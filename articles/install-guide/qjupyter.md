@@ -1,5 +1,5 @@
 ---
-title: 'Q # Jupyter notebook を使用した開発'
+title: 'Q# Jupyter notebook を使用した開発'
 author: natke
 ms.author: nakersha
 ms.date: 9/30/2019
@@ -13,16 +13,16 @@ ms.contentlocale: ja-JP
 ms.lasthandoff: 01/29/2020
 ms.locfileid: "76831071"
 ---
-# <a name="develop-with-q-jupyter-notebooks"></a><span data-ttu-id="62771-102">Q # Jupyter notebook を使用した開発</span><span class="sxs-lookup"><span data-stu-id="62771-102">Develop with Q# Jupyter notebooks</span></span>
+# <a name="develop-with-q-jupyter-notebooks"></a><span data-ttu-id="62771-102">Q# Jupyter notebook を使用した開発</span><span class="sxs-lookup"><span data-stu-id="62771-102">Develop with Q# Jupyter notebooks</span></span>
 
-<span data-ttu-id="62771-103">Q # Jupyter Notebook で Q # 操作を開発するには、QDK をインストールします。</span><span class="sxs-lookup"><span data-stu-id="62771-103">Install the QDK for developing Q# operations on Q# Jupyter Notebooks.</span></span>
+<span data-ttu-id="62771-103">Q# Jupyter Notebook で Q# 操作を開発するには、QDK をインストールします。</span><span class="sxs-lookup"><span data-stu-id="62771-103">Install the QDK for developing Q# operations on Q# Jupyter Notebooks.</span></span>
 
-<span data-ttu-id="62771-104">Jupyter Notebook を使用すると、命令、メモ、およびその他のコンテンツと共に、インプレースコードを実行できます。</span><span class="sxs-lookup"><span data-stu-id="62771-104">Jupyter Notebooks allow in-place code execution alongside instructions, notes, and other content.</span></span> <span data-ttu-id="62771-105">この環境は、記述された説明や量子コンピューティングの対話型チュートリアルを使用して Q # コードを記述する場合に最適です。</span><span class="sxs-lookup"><span data-stu-id="62771-105">This environment is ideal for writing Q# code with embedded explanations or quantum computing interactive tutorials.</span></span> <span data-ttu-id="62771-106">独自の Q# ノートブックの作成を開始するには、次の手順を実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="62771-106">Here's what you need to do to start creating your own Q# notebooks.</span></span>
+<span data-ttu-id="62771-104">Jupyter Notebook を使用すると、命令、メモ、およびその他のコンテンツと共に、インプレースコードを実行できます。</span><span class="sxs-lookup"><span data-stu-id="62771-104">Jupyter Notebooks allow in-place code execution alongside instructions, notes, and other content.</span></span> <span data-ttu-id="62771-105">この環境は、記述された説明や量子コンピューティングの対話型チュートリアルを使用して Q# コードを記述する場合に最適です。</span><span class="sxs-lookup"><span data-stu-id="62771-105">This environment is ideal for writing Q# code with embedded explanations or quantum computing interactive tutorials.</span></span> <span data-ttu-id="62771-106">独自の Q# ノートブックの作成を開始するには、次の手順を実行する必要があります。</span><span class="sxs-lookup"><span data-stu-id="62771-106">Here's what you need to do to start creating your own Q# notebooks.</span></span>
 
 <span data-ttu-id="62771-107">IQ# (発音: アイ キュー シャープ) は主に Jupyter と Python で .NET Core SDK に対して使用される拡張機能であり、Q# の演算をコンパイルおよびシミュレートするためのコア機能を提供します。</span><span class="sxs-lookup"><span data-stu-id="62771-107">IQ# (pronounced i-q-sharp) is an extension primarily used by Jupyter and Python to the .NET Core SDK that provides the core functionality for compiling and simulating Q# operations.</span></span>
 
 > [!NOTE]
-> * <span data-ttu-id="62771-108">Q # Jupyter Notebook では、Q # コードのみを実行できます。また、操作を外部ホストプログラム (Python やC#ファイルなど) から呼び出すことはできません。</span><span class="sxs-lookup"><span data-stu-id="62771-108">In Q# Jupyter Notebooks you can only run Q# code, and the operations cannot be called from external host programs (e.g. Python or C# files).</span></span> <span data-ttu-id="62771-109">この環境は、外部のクラシックホストプログラムを quantum プログラムと組み合わせることが目的の場合には適していません。</span><span class="sxs-lookup"><span data-stu-id="62771-109">This environment is not appropriate if your goal is to combine an external classical host program with the quantum program.</span></span>
+> * <span data-ttu-id="62771-108">Q# Jupyter Notebook では、Q# コードのみを実行できます。また、操作を外部ホストプログラム (Python やC#ファイルなど) から呼び出すことはできません。</span><span class="sxs-lookup"><span data-stu-id="62771-108">In Q# Jupyter Notebooks you can only run Q# code, and the operations cannot be called from external host programs (e.g. Python or C# files).</span></span> <span data-ttu-id="62771-109">この環境は、外部のクラシックホストプログラムを quantum プログラムと組み合わせることが目的の場合には適していません。</span><span class="sxs-lookup"><span data-stu-id="62771-109">This environment is not appropriate if your goal is to combine an external classical host program with the quantum program.</span></span>
 
 1. <span data-ttu-id="62771-110">前提条件</span><span class="sxs-lookup"><span data-stu-id="62771-110">Pre-requisites</span></span>
 
